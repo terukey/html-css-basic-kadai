@@ -4,8 +4,9 @@ html {
 p {
   text-align: center;
 } 
-.font {
+#basic > p {
   font-weight: bold;
+}   
 }
 h1 {
   font-family:"josefin sans",sans-serif;
