@@ -1,7 +1,12 @@
-p {
+html {
   font-size: 20px;
+}
+p {
   text-align: center;
 } 
+.font {
+  font-weight: bold;
+}
 h1 {
   font-family:"josefin sans",sans-serif;
   font-size: 2rem;
