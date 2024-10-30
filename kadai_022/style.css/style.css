@@ -1,24 +1,34 @@
-style.css
 h1 {
+    margin: 0;
     color: rgb(255, 255, 255);
-    background-color: rgb(244, 79, 79);
 }
-h2 {
-    font-size: 25px;
-    margin: 0;
-}
-
 p {
-    font-size: 20px;
     margin: 0;
+    font-size: 20px;
 }
-
 body {
     margin: 0;
 }
-
-.flexbox-container {
+a {
+    font-size: 20px;
 }
-
-.flexbox-item {
+header {
+    margin-bottom: 20px;
+    background-color:  rgb(244, 79, 79);
+    text-align: center;
+}
+main {
+    margin: 10px;
+}
+#parent {
+    display: flex;
+    justify-content: space-around;/*一番左と一番右のアイテムも含め、均等な間隔で配置する*/
+}
+.contents {
+    border: 3px solid rgb(238, 204, 204); /* ボーダーの色と幅を指定 */
+    flex-basis: 25%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: white; /* 背景色を指定 */
 }
