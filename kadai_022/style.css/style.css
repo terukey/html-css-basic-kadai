@@ -11,6 +11,7 @@ body {
 }
 a {
     font-size: 20px;
+    color: rgb(255,255,255);
 }
 header {
     margin-bottom: 20px;
@@ -18,17 +19,20 @@ header {
     text-align: center;
 }
 main {
-    margin: 10px;
+    padding: 10px;
 }
 #parent {
     display: flex;
-    justify-content: space-around;/*一番左と一番右のアイテムも含め、均等な間隔で配置する*/
+    justify-content: space-around;
 }
 .contents {
-    border: 3px solid rgb(238, 204, 204); /* ボーダーの色と幅を指定 */
+    border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px 0;
     text-align: center;
-    background-color: white; /* 背景色を指定 */
+}
+
+h2 {
+    font-size: 25px;
 }
