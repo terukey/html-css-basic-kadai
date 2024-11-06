@@ -57,8 +57,8 @@ div {
     display: inline-block;
 }
 
-+@media screen and (max-width: 768px) {
-+    div {
-+        display: block;
-+    }
-+}
+@media screen and (max-width: 768px) {
+    div {
+        display: block;
+    }
+}
