@@ -1,0 +1,16 @@
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(193, 234, 251);
+}
+
+a:hover {
+    color: rgb(245, 178, 168);
+}
