@@ -33,17 +33,22 @@ main {
     text-align: center;
 }
 
+h2 {
+    font-size: 25px;
+    border-bottom: dotted rgb(236,122,122) 3px;
+}
+
 h2::before {
     content: "●";
     color: rgb(239,111,139);
-    font-size: 25px;
 }
 
-h2 {
-    border-bottom: dotted rgb(236, 122, 122) 3px;
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
 }
 
-div img {
+.contents img {
     margin: 10px 0px;
     width: 70%;
 }
@@ -53,22 +58,7 @@ footer {
     text-align: center;
 }
 
-div {
-    display: inline-block;
-}
-
-@media screen and (max-width: 768px) {
-    div {
-        display: inline-block;
-    }
-}
-
-.contents p:nth-of-type(2)::first-letter {
-    font-weight: bold;
-    color: rgb(97, 206, 249);
-}
-
-a:link {
+a {
     color: rgb(255, 255, 255);
 }
 
@@ -78,4 +68,16 @@ a:visited {
 
 a:hover {
     color: rgb(245, 178, 168);
+}
+
+@media screen and (max-width: 768px) {
+    #parent {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
 }
