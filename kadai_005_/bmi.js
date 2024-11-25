@@ -6,7 +6,7 @@ let height;
 weight = 68;
 height = 1.7;
 
-const bmi = weight / height**2;
+let bmi = weight / height**2;
 
 //コンソールへの出力
 console.log(bmi);
